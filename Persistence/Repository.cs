@@ -1,20 +1,15 @@
-﻿using Generics.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Generics.Core.Entity;
+using Generics.Interface;
 
 namespace Generics.Persistence
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        //internal IDBContext dbContext;
-        //internal IDBSetbTEntity> dbSet;
+        internal GenericDbContext context;
 
-        public TEntity Add(TEntity entity)
+        public void Add(TEntity entity)
         {
-            throw new NotImplementedException();
+            context.Add(entity);
         }
 
         public void Delete()
