@@ -1,4 +1,4 @@
-﻿namespace Domain.Interface
+﻿namespace Generics.Domain.Interface
 {
     public interface IGenericDbContext
     {

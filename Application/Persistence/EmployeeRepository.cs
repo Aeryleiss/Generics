@@ -1,5 +1,5 @@
 ﻿using Domain.Entity;
-using Infrastructure.Interface;
+using Generics.Domain.Interface;
 
 namespace Generics.Application.Persistence
 {

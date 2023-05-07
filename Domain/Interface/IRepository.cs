@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Interface
+﻿namespace Generics.Domain.Interface
 {
     public interface IRepository<TEntity> where TEntity : class
     {

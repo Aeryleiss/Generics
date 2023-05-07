@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Generics.Application.Interface;
 
 namespace Infrastructure.Services
 {
-    internal class EmployeeService
+    internal class EmployeeService : IEmployeeService
     {
 
     }

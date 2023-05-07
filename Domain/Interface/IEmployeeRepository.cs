@@ -1,6 +1,6 @@
 ﻿using Domain.Entity;
 
-namespace Infrastructure.Interface
+namespace Generics.Domain.Interface
 {
     public interface IEmployeeRepository : IRepository<Employee>
     {

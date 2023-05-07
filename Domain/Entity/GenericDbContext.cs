@@ -1,4 +1,4 @@
-﻿using Domain.Interface;
+﻿using Generics.Domain.Interface;
 using Microsoft.EntityFrameworkCore;
 
 namespace Domain.Entity
